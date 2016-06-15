@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.apptentive.demo.nps.MainActivity">
+
+    <com.apptentive.demo.nps.widgets.ApptentiveNPSWidgetSeekBar android:id="@+id/nps_seekbar"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="80dp"
+                                                                android:layout_centerHorizontal="true"
+                                                                android:layout_marginTop="@dimen/activity_vertical_margin"
+                                                                android:visibility="gone"
+                                                                app:base_background="@null"
+                                                                app:draw_label="true"
+                                                                app:label_offset="0dp"
+                                                                app:item_height="30dp"
+                                                                app:item_width="30dp"/>
+
+
+    <com.apptentive.demo.nps.widgets.ApptentiveNPSWidgetSeekBar android:id="@+id/nps_seekbar_2"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="100dp"
+                                                                android:layout_below="@id/nps_seekbar"
+                                                                android:layout_centerHorizontal="true"
+                                                                android:layout_marginTop="@dimen/activity_vertical_margin"
+                                                                app:base_background="@null"
+                                                                app:draw_label="true"
+                                                                app:label_offset="0dp"
+                                                                app:highlight_factor="150%"
+                                                                app:item_height="30dp"
+                                                                app:item_width="30dp"/>
+
+    <com.apptentive.demo.nps.widgets.ApptentiveNPSWidgetSeekBar android:id="@+id/nps_seekbar_3"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="100dp"
+                                                                android:layout_below="@id/nps_seekbar_2"
+                                                                android:layout_centerHorizontal="true"
+                                                                android:layout_marginTop="60dp"
+                                                                app:base_background="@null"
+                                                                app:draw_label="true"
+                                                                app:label_offset="30dp"
+                                                                app:highlight_factor="130%"
+                                                                app:item_height="30dp"
+                                                                app:item_width="30dp"/>
+</RelativeLayout>

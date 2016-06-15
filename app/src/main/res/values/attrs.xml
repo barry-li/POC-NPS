@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ApptentiveNPSWidgetSeekBar">
+        <attr name="base_margin_left" format="dimension|reference"/>
+        <attr name="base_margin_right" format="dimension|reference"/>
+        <attr name="base_margin_top" format="dimension|reference"/>
+        <attr name="base_margin_bottom" format="dimension|reference"/>
+        <attr name="base_background" format="color|reference"/>
+        <attr name="item_width" format="dimension|reference"/>
+        <attr name="item_height" format="dimension|reference"/>
+        <attr name="item_tint" format="color|reference"/>
+        <attr name="draw_label" format="boolean"/>
+        <attr name="label_offset" format="dimension|reference"/>
+        <attr name="highlight_factor" format="fraction|reference"/>
+    </declare-styleable>
+
+</resources>
